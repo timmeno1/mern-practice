@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1rigrZ0oAGbZ34WAiOBcbGDUCUA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
+      <created>1619464525657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619464525657</updated>
+      <workItem from="1619464528119" duration="231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="154" key="SettingsEditor" timestamp="1619464734849">
+      <screen x="0" y="28" width="1920" height="986" />
+    </state>
+    <state x="442" y="154" key="SettingsEditor/0.28.1920.986@0.28.1920.986" timestamp="1619464734849" />
+    <state x="815" y="437" width="332" height="259" key="VCS.EditChangelistDialog" timestamp="1619464646959">
+      <screen x="0" y="28" width="1920" height="986" />
+    </state>
+    <state x="815" y="437" width="332" height="259" key="VCS.EditChangelistDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464646959" />
+  </component>
+</project>
