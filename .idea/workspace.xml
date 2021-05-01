@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="" />
+    <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/link.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/AuthPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/AuthPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rigrZ0oAGbZ34WAiOBcbGDUCUA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ECMAScript 6" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -23,24 +68,52 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1619464525657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619464525657</updated>
       <workItem from="1619464528119" duration="231000" />
+      <workItem from="1619464773223" duration="1272000" />
+      <workItem from="1619796626198" duration="860000" />
+      <workItem from="1619831980243" duration="1803000" />
+      <workItem from="1619858342583" duration="7204000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1619465009467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619465009467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="788" y="419" key="Github.ShareDialog" timestamp="1619464888072">
+      <screen x="0" y="28" width="1920" height="986" />
+    </state>
+    <state x="788" y="419" key="Github.ShareDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464888072" />
     <state x="442" y="154" key="SettingsEditor" timestamp="1619464734849">
       <screen x="0" y="28" width="1920" height="986" />
     </state>
@@ -49,5 +122,13 @@
       <screen x="0" y="28" width="1920" height="986" />
     </state>
     <state x="815" y="437" width="332" height="259" key="VCS.EditChangelistDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464646959" />
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1619465070972">
+      <screen x="0" y="28" width="1920" height="986" />
+    </state>
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.28.1920.986@0.28.1920.986" timestamp="1619465070972" />
+    <state x="733" y="247" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1619464924461">
+      <screen x="0" y="28" width="1920" height="986" />
+    </state>
+    <state x="733" y="247" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464924461" />
   </component>
 </project>

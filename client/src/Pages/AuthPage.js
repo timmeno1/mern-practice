@@ -23,12 +23,19 @@ const AuthPage = () => {
     const changeHandler = event => {
         setForm({ ...form, [event.target.name]: event.target.value })
     }
+
     const registerHandler = async () => {
         try {
             const data = await request('/api/auth/register', 'POST', {...form})
             message(data.message)
         } catch (e) {
             
+        }
+    }
+
+    const returnPressHandler = event => {
+        if(event.key === 'Enter') {
+            loginHandler()
         }
     }
 
@@ -53,7 +60,9 @@ const AuthPage = () => {
                                 type="text"
                                 placeholder={"Введите email"}
                                 name={"email"}
+                                value={form.email}
                                 onChange={changeHandler}
+                                onKeyPress={returnPressHandler}
                             />
                             <label htmlFor="email">Email</label>
                         </div>
@@ -63,7 +72,9 @@ const AuthPage = () => {
                                 type="password"
                                 placeholder={"Введите пароль"}
                                 name={"password"}
+                                value={form.password}
                                 onChange={changeHandler}
+                                onKeyPress={returnPressHandler}
                             />
                             <label htmlFor="password">Password</label>
                         </div>
