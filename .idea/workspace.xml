@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/auth.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/link.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/LinkCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/AuthPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/AuthPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/link.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/link.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,8 @@
       <workItem from="1619464773223" duration="1272000" />
       <workItem from="1619796626198" duration="860000" />
       <workItem from="1619831980243" duration="1803000" />
-      <workItem from="1619858342583" duration="7204000" />
+      <workItem from="1619858342583" duration="7653000" />
+      <workItem from="1619908557476" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1619465009467</created>
@@ -85,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619465009467</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="videolesson 2.5 hrs of 3hrs done">
+      <created>1619869461068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619869461068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,13 +101,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="videolesson 2.5 hrs of 3hrs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="videolesson 2.5 hrs of 3hrs done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="419" key="Github.ShareDialog" timestamp="1619464888072">
@@ -122,9 +124,10 @@
       <screen x="0" y="28" width="1920" height="986" />
     </state>
     <state x="815" y="437" width="332" height="259" key="VCS.EditChangelistDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464646959" />
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1619465070972">
-      <screen x="0" y="28" width="1920" height="986" />
+    <state x="2476" y="249" key="Vcs.Push.Dialog.v2" timestamp="1619869472439">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2476" y="249" key="Vcs.Push.Dialog.v2/0.28.1920.986/1920.0.1920.1080@1920.0.1920.1080" timestamp="1619869472439" />
     <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.28.1920.986@0.28.1920.986" timestamp="1619465070972" />
     <state x="733" y="247" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1619464924461">
       <screen x="0" y="28" width="1920" height="986" />
