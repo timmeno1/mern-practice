@@ -10,7 +10,7 @@ const DetailPage = () => {
     const {request, loading} = useHttp()
     const [link, setLink] = useState(null)
     const linkId = useParams().id
-    console.log(link)
+
     const getLink = useCallback(async () => {
         try {
             const fetched = await request(`/api/link/${linkId}`, 'GET', null, {

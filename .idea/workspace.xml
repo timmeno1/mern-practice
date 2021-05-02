@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/client/src/components/LinkCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/LinksList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/link.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/link.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/LinksPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/LinksPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <workItem from="1619796626198" duration="860000" />
       <workItem from="1619831980243" duration="1803000" />
       <workItem from="1619858342583" duration="7653000" />
-      <workItem from="1619908557476" duration="3999000" />
+      <workItem from="1619908557476" duration="6014000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1619465009467</created>
@@ -85,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619869461068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DetailPage and LinkCard">
+      <created>1619914315969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619914315969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +113,8 @@
     </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="videolesson 2.5 hrs of 3hrs done" />
-    <option name="LAST_COMMIT_MESSAGE" value="videolesson 2.5 hrs of 3hrs done" />
+    <MESSAGE value="DetailPage and LinkCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="DetailPage and LinkCard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="419" key="Github.ShareDialog" timestamp="1619464888072">
@@ -124,11 +129,11 @@
       <screen x="0" y="28" width="1920" height="986" />
     </state>
     <state x="815" y="437" width="332" height="259" key="VCS.EditChangelistDialog/0.28.1920.986@0.28.1920.986" timestamp="1619464646959" />
-    <state x="2476" y="249" key="Vcs.Push.Dialog.v2" timestamp="1619869472439">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1619914319795">
+      <screen x="0" y="28" width="1920" height="986" />
     </state>
     <state x="2476" y="249" key="Vcs.Push.Dialog.v2/0.28.1920.986/1920.0.1920.1080@1920.0.1920.1080" timestamp="1619869472439" />
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.28.1920.986@0.28.1920.986" timestamp="1619465070972" />
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.28.1920.986@0.28.1920.986" timestamp="1619914319795" />
     <state x="733" y="247" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1619464924461">
       <screen x="0" y="28" width="1920" height="986" />
     </state>
