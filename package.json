@@ -5,10 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
-    "dev-start": "concurrently \"npm run server\" \"npm run client\" "
+    "dev-start": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\" ",
+    "client:install": "npm install --prefix client",
+    "client: build": "npm run build --prefix client"
   },
   "keywords": [
     "mern",
@@ -19,6 +21,7 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "config": "^3.3.6",
+    "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "express-validator": "^6.10.1",
     "jsonwebtoken": "^8.5.1",

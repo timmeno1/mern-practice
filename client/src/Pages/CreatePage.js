@@ -36,7 +36,7 @@ const CreatePage = () => {
                         value={link}
                         onKeyPress={pressHandler}
                     />
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="link">Ссылка</label>
                 </div>
             </div>
 

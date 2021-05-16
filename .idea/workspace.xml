@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c44b56b0-e3a0-4f73-a3af-befe23df66cc" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/client/src/components/LinksList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/redirect.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/DetailPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/LinksPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/LinksPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/CreatePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LinkCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LinkCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,14 @@
       <workItem from="1619796626198" duration="860000" />
       <workItem from="1619831980243" duration="1803000" />
       <workItem from="1619858342583" duration="7653000" />
-      <workItem from="1619908557476" duration="6014000" />
+      <workItem from="1619908557476" duration="7165000" />
+      <workItem from="1619919732317" duration="859000" />
+      <workItem from="1619963291905" duration="1984000" />
+      <workItem from="1620077886974" duration="1283000" />
+      <workItem from="1620167769062" duration="427000" />
+      <workItem from="1620168670238" duration="5578000" />
+      <workItem from="1620335021040" duration="75000" />
+      <workItem from="1621123474736" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1619465009467</created>
@@ -89,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619914315969</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LinksList.js and LinksPage.js">
+      <created>1619916464837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619916464838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +131,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="videolesson 2.5 hrs of 3hrs done" />
     <MESSAGE value="DetailPage and LinkCard" />
-    <option name="LAST_COMMIT_MESSAGE" value="DetailPage and LinkCard" />
+    <MESSAGE value="LinksList.js and LinksPage.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinksList.js and LinksPage.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="419" key="Github.ShareDialog" timestamp="1619464888072">
